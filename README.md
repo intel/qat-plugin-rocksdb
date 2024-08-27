@@ -239,8 +239,8 @@ The compressor offers several options:
   - "deflate": uses DEFLATE compression algorithm as defined in RFC 1951.
   - "lz4": uses LZ4 compression algorithm.
 - sw_backup
-  - "false": will not use the software path if the hardware path fails.
-  - "true": will use the software path if the hardware path fails.
+  - "disable": will not use the software path if the hardware path fails.
+  - "enable": will use the software path if the hardware path fails.
 - hw_buff_sz
   - [1024, 2,147,483,648]: size of buffer (in bytes) passed into QAT hardware.
 - strm_buff_sz
